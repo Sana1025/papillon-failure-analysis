@@ -1,0 +1,8 @@
+# Core pipeline dependencies (pinned to match PAPILLON paper)
+openai>=0.28.1,<2.0.0
+pandas>=1.5
+dspy-ai @ git+https://github.com/stanfordnlp/dspy.git@ee8206ea7ce14630b3e64d2b997878169dee3252
+litellm==1.53.9
+
+# Analysis & evaluation extras
+tqdm

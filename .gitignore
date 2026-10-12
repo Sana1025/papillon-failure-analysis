@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+dist/
+build/
+
+# Data — keep raw PUPA CSVs out of the repo; reference PAPILLON clone instead
+pupa/
+*.csv
+*.json
+!requirements*.txt
+
+# Outputs
+audit_*.csv
+audit_*.json
+output*.csv
+cache/
+
+# Environment
+.env
+*.key
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
